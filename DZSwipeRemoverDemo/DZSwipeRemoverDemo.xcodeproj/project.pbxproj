@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		925E33641861EFED003EB475 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925E33631861EFED003EB475 /* Foundation.framework */; };
+		925E33661861EFED003EB475 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925E33651861EFED003EB475 /* CoreGraphics.framework */; };
+		925E33681861EFED003EB475 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925E33671861EFED003EB475 /* UIKit.framework */; };
+		925E33861861EFED003EB475 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925E33851861EFED003EB475 /* XCTest.framework */; };
+		925E33871861EFED003EB475 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925E33631861EFED003EB475 /* Foundation.framework */; };
+		925E33881861EFED003EB475 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925E33671861EFED003EB475 /* UIKit.framework */; };
+		925E33901861EFED003EB475 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 925E338E1861EFED003EB475 /* InfoPlist.strings */; };
+		925E33921861EFED003EB475 /* DZSwipeRemoverDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 925E33911861EFED003EB475 /* DZSwipeRemoverDemoTests.m */; };
+		925E33AC1861F059003EB475 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 925E339D1861F059003EB475 /* Main_iPad.storyboard */; };
+		925E33AD1861F059003EB475 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 925E339F1861F059003EB475 /* Main_iPhone.storyboard */; };
+		925E33AF1861F059003EB475 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 925E33A31861F059003EB475 /* Images.xcassets */; };
+		925E33B01861F059003EB475 /* DZSRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 925E33A61861F059003EB475 /* DZSRAppDelegate.m */; };
+		925E33B11861F059003EB475 /* DZSRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 925E33A81861F059003EB475 /* DZSRViewController.m */; };
+		925E33B31861F059003EB475 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 925E33AB1861F059003EB475 /* main.m */; };
+		925E33BB1861F0E0003EB475 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 925E33B61861F0E0003EB475 /* BaseTableViewCell.m */; };
+		925E33BC1861F0E0003EB475 /* DirectionPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 925E33B81861F0E0003EB475 /* DirectionPanGestureRecognizer.m */; };
+		925E33BD1861F0E0003EB475 /* SwipeRemoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 925E33BA1861F0E0003EB475 /* SwipeRemoverView.m */; };
+		925E33BE1861F1AB003EB475 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 925E33A11861F059003EB475 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		925E33891861EFED003EB475 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 925E33581861EFED003EB475 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 925E335F1861EFED003EB475;
+			remoteInfo = DZSwipeRemoverDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		925E33601861EFED003EB475 /* DZSwipeRemoverDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZSwipeRemoverDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		925E33631861EFED003EB475 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		925E33651861EFED003EB475 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		925E33671861EFED003EB475 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		925E33841861EFED003EB475 /* DZSwipeRemoverDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZSwipeRemoverDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		925E33851861EFED003EB475 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		925E338D1861EFED003EB475 /* DZSwipeRemoverDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DZSwipeRemoverDemoTests-Info.plist"; sourceTree = "<group>"; };
+		925E338F1861EFED003EB475 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		925E33911861EFED003EB475 /* DZSwipeRemoverDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZSwipeRemoverDemoTests.m; sourceTree = "<group>"; };
+		925E339E1861F059003EB475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		925E33A01861F059003EB475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		925E33A21861F059003EB475 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		925E33A31861F059003EB475 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		925E33A51861F059003EB475 /* DZSRAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZSRAppDelegate.h; sourceTree = "<group>"; };
+		925E33A61861F059003EB475 /* DZSRAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZSRAppDelegate.m; sourceTree = "<group>"; };
+		925E33A71861F059003EB475 /* DZSRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZSRViewController.h; sourceTree = "<group>"; };
+		925E33A81861F059003EB475 /* DZSRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZSRViewController.m; sourceTree = "<group>"; };
+		925E33A91861F059003EB475 /* DZSwipeRemoverDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DZSwipeRemoverDemo-Info.plist"; sourceTree = "<group>"; };
+		925E33AA1861F059003EB475 /* DZSwipeRemoverDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DZSwipeRemoverDemo-Prefix.pch"; sourceTree = "<group>"; };
+		925E33AB1861F059003EB475 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		925E33B51861F0E0003EB475 /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		925E33B61861F0E0003EB475 /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		925E33B71861F0E0003EB475 /* DirectionPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectionPanGestureRecognizer.h; sourceTree = "<group>"; };
+		925E33B81861F0E0003EB475 /* DirectionPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectionPanGestureRecognizer.m; sourceTree = "<group>"; };
+		925E33B91861F0E0003EB475 /* SwipeRemoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeRemoverView.h; sourceTree = "<group>"; };
+		925E33BA1861F0E0003EB475 /* SwipeRemoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeRemoverView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		925E335D1861EFED003EB475 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925E33661861EFED003EB475 /* CoreGraphics.framework in Frameworks */,
+				925E33681861EFED003EB475 /* UIKit.framework in Frameworks */,
+				925E33641861EFED003EB475 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925E33811861EFED003EB475 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925E33861861EFED003EB475 /* XCTest.framework in Frameworks */,
+				925E33881861EFED003EB475 /* UIKit.framework in Frameworks */,
+				925E33871861EFED003EB475 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		925E33571861EFED003EB475 = {
+			isa = PBXGroup;
+			children = (
+				925E33B41861F0E0003EB475 /* DZSwipeRemover */,
+				925E339B1861F059003EB475 /* DZSwipeRemoverDemo */,
+				925E338B1861EFED003EB475 /* DZSwipeRemoverDemoTests */,
+				925E33621861EFED003EB475 /* Frameworks */,
+				925E33611861EFED003EB475 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		925E33611861EFED003EB475 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				925E33601861EFED003EB475 /* DZSwipeRemoverDemo.app */,
+				925E33841861EFED003EB475 /* DZSwipeRemoverDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		925E33621861EFED003EB475 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				925E33631861EFED003EB475 /* Foundation.framework */,
+				925E33651861EFED003EB475 /* CoreGraphics.framework */,
+				925E33671861EFED003EB475 /* UIKit.framework */,
+				925E33851861EFED003EB475 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		925E338B1861EFED003EB475 /* DZSwipeRemoverDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				925E33911861EFED003EB475 /* DZSwipeRemoverDemoTests.m */,
+				925E338C1861EFED003EB475 /* Supporting Files */,
+			);
+			path = DZSwipeRemoverDemoTests;
+			sourceTree = "<group>";
+		};
+		925E338C1861EFED003EB475 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				925E338D1861EFED003EB475 /* DZSwipeRemoverDemoTests-Info.plist */,
+				925E338E1861EFED003EB475 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		925E339B1861F059003EB475 /* DZSwipeRemoverDemo */ = {
+			isa = PBXGroup;
+			children = (
+				925E339C1861F059003EB475 /* Resources */,
+				925E33A41861F059003EB475 /* Source */,
+			);
+			path = DZSwipeRemoverDemo;
+			sourceTree = "<group>";
+		};
+		925E339C1861F059003EB475 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				925E339D1861F059003EB475 /* Main_iPad.storyboard */,
+				925E339F1861F059003EB475 /* Main_iPhone.storyboard */,
+				925E33A11861F059003EB475 /* InfoPlist.strings */,
+				925E33A31861F059003EB475 /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		925E33A41861F059003EB475 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				925E33A51861F059003EB475 /* DZSRAppDelegate.h */,
+				925E33A61861F059003EB475 /* DZSRAppDelegate.m */,
+				925E33A71861F059003EB475 /* DZSRViewController.h */,
+				925E33A81861F059003EB475 /* DZSRViewController.m */,
+				925E33A91861F059003EB475 /* DZSwipeRemoverDemo-Info.plist */,
+				925E33AA1861F059003EB475 /* DZSwipeRemoverDemo-Prefix.pch */,
+				925E33AB1861F059003EB475 /* main.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		925E33B41861F0E0003EB475 /* DZSwipeRemover */ = {
+			isa = PBXGroup;
+			children = (
+				925E33B51861F0E0003EB475 /* BaseTableViewCell.h */,
+				925E33B61861F0E0003EB475 /* BaseTableViewCell.m */,
+				925E33B71861F0E0003EB475 /* DirectionPanGestureRecognizer.h */,
+				925E33B81861F0E0003EB475 /* DirectionPanGestureRecognizer.m */,
+				925E33B91861F0E0003EB475 /* SwipeRemoverView.h */,
+				925E33BA1861F0E0003EB475 /* SwipeRemoverView.m */,
+			);
+			name = DZSwipeRemover;
+			path = ../DZSwipeRemover;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		925E335F1861EFED003EB475 /* DZSwipeRemoverDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 925E33951861EFED003EB475 /* Build configuration list for PBXNativeTarget "DZSwipeRemoverDemo" */;
+			buildPhases = (
+				925E335C1861EFED003EB475 /* Sources */,
+				925E335D1861EFED003EB475 /* Frameworks */,
+				925E335E1861EFED003EB475 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DZSwipeRemoverDemo;
+			productName = DZSwipeRemoverDemo;
+			productReference = 925E33601861EFED003EB475 /* DZSwipeRemoverDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		925E33831861EFED003EB475 /* DZSwipeRemoverDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 925E33981861EFED003EB475 /* Build configuration list for PBXNativeTarget "DZSwipeRemoverDemoTests" */;
+			buildPhases = (
+				925E33801861EFED003EB475 /* Sources */,
+				925E33811861EFED003EB475 /* Frameworks */,
+				925E33821861EFED003EB475 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				925E338A1861EFED003EB475 /* PBXTargetDependency */,
+			);
+			name = DZSwipeRemoverDemoTests;
+			productName = DZSwipeRemoverDemoTests;
+			productReference = 925E33841861EFED003EB475 /* DZSwipeRemoverDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		925E33581861EFED003EB475 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DZSR;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = DZamataev;
+				TargetAttributes = {
+					925E33831861EFED003EB475 = {
+						TestTargetID = 925E335F1861EFED003EB475;
+					};
+				};
+			};
+			buildConfigurationList = 925E335B1861EFED003EB475 /* Build configuration list for PBXProject "DZSwipeRemoverDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 925E33571861EFED003EB475;
+			productRefGroup = 925E33611861EFED003EB475 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				925E335F1861EFED003EB475 /* DZSwipeRemoverDemo */,
+				925E33831861EFED003EB475 /* DZSwipeRemoverDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		925E335E1861EFED003EB475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925E33BE1861F1AB003EB475 /* InfoPlist.strings in Resources */,
+				925E33AD1861F059003EB475 /* Main_iPhone.storyboard in Resources */,
+				925E33AF1861F059003EB475 /* Images.xcassets in Resources */,
+				925E33AC1861F059003EB475 /* Main_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925E33821861EFED003EB475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925E33901861EFED003EB475 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		925E335C1861EFED003EB475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925E33BD1861F0E0003EB475 /* SwipeRemoverView.m in Sources */,
+				925E33BC1861F0E0003EB475 /* DirectionPanGestureRecognizer.m in Sources */,
+				925E33BB1861F0E0003EB475 /* BaseTableViewCell.m in Sources */,
+				925E33B01861F059003EB475 /* DZSRAppDelegate.m in Sources */,
+				925E33B31861F059003EB475 /* main.m in Sources */,
+				925E33B11861F059003EB475 /* DZSRViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925E33801861EFED003EB475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925E33921861EFED003EB475 /* DZSwipeRemoverDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		925E338A1861EFED003EB475 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 925E335F1861EFED003EB475 /* DZSwipeRemoverDemo */;
+			targetProxy = 925E33891861EFED003EB475 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		925E338E1861EFED003EB475 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				925E338F1861EFED003EB475 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		925E339D1861F059003EB475 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				925E339E1861F059003EB475 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		925E339F1861F059003EB475 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				925E33A01861F059003EB475 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		925E33A11861F059003EB475 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				925E33A21861F059003EB475 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		925E33931861EFED003EB475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		925E33941861EFED003EB475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		925E33961861EFED003EB475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DZSwipeRemoverDemo/Source/DZSwipeRemoverDemo-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/DZSwipeRemoverDemo/Source/DZSwipeRemoverDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		925E33971861EFED003EB475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DZSwipeRemoverDemo/Source/DZSwipeRemoverDemo-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/DZSwipeRemoverDemo/Source/DZSwipeRemoverDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		925E33991861EFED003EB475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DZSwipeRemoverDemo.app/DZSwipeRemoverDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DZSwipeRemoverDemo/DZSwipeRemoverDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DZSwipeRemoverDemoTests/DZSwipeRemoverDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		925E339A1861EFED003EB475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DZSwipeRemoverDemo.app/DZSwipeRemoverDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DZSwipeRemoverDemo/DZSwipeRemoverDemo-Prefix.pch";
+				INFOPLIST_FILE = "DZSwipeRemoverDemoTests/DZSwipeRemoverDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		925E335B1861EFED003EB475 /* Build configuration list for PBXProject "DZSwipeRemoverDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925E33931861EFED003EB475 /* Debug */,
+				925E33941861EFED003EB475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		925E33951861EFED003EB475 /* Build configuration list for PBXNativeTarget "DZSwipeRemoverDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925E33961861EFED003EB475 /* Debug */,
+				925E33971861EFED003EB475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		925E33981861EFED003EB475 /* Build configuration list for PBXNativeTarget "DZSwipeRemoverDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925E33991861EFED003EB475 /* Debug */,
+				925E339A1861EFED003EB475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 925E33581861EFED003EB475 /* Project object */;
+}
